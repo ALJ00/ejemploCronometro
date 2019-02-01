@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140A956F536758895F041C26 /* Pods_cronometro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE78FDED16B10EFFA1DEBB01 /* Pods_cronometro.framework */; };
+		454EC355DC04D09212D0EFE0 /* Pods_cronometroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F1EAE0A408AF7C00EE761A /* Pods_cronometroTests.framework */; };
+		71E8234A2203576D008B7C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E823492203576D008B7C97 /* AppDelegate.swift */; };
+		71E8234C2203576D008B7C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8234B2203576D008B7C97 /* ViewController.swift */; };
+		71E8234F2203576D008B7C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E8234D2203576D008B7C97 /* Main.storyboard */; };
+		71E8235122035775008B7C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E8235022035775008B7C97 /* Assets.xcassets */; };
+		71E8235422035775008B7C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E8235222035775008B7C97 /* LaunchScreen.storyboard */; };
+		71E8235F22035776008B7C97 /* cronometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8235E22035776008B7C97 /* cronometroTests.swift */; };
+		71E8236A22035776008B7C97 /* cronometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8236922035776008B7C97 /* cronometroUITests.swift */; };
+		7B036062966136EDB736BECF /* Pods_cronometroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B7C6025053808DE6BA4EE /* Pods_cronometroUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E8235B22035776008B7C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E8233E2203576D008B7C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E823452203576D008B7C97;
+			remoteInfo = cronometro;
+		};
+		71E8236622035776008B7C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E8233E2203576D008B7C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E823452203576D008B7C97;
+			remoteInfo = cronometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		404D5EE4482CC030985DB612 /* Pods-cronometroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cronometroUITests/Pods-cronometroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		525FCB2F6CECED424EF1279D /* Pods-cronometro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cronometro/Pods-cronometro.debug.xcconfig"; sourceTree = "<group>"; };
+		64864976842C1D5A36788721 /* Pods-cronometroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cronometroUITests/Pods-cronometroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71E823462203576D008B7C97 /* cronometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cronometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E823492203576D008B7C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E8234B2203576D008B7C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71E8234E2203576D008B7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E8235022035775008B7C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E8235322035775008B7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E8235522035775008B7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E8235A22035776008B7C97 /* cronometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cronometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E8235E22035776008B7C97 /* cronometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cronometroTests.swift; sourceTree = "<group>"; };
+		71E8236022035776008B7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E8236522035776008B7C97 /* cronometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cronometroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E8236922035776008B7C97 /* cronometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cronometroUITests.swift; sourceTree = "<group>"; };
+		71E8236B22035776008B7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7723F6FBBB3B831A303C0688 /* Pods-cronometroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cronometroTests/Pods-cronometroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A48C1BEDEC20E12D6D752C /* Pods-cronometroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cronometroTests/Pods-cronometroTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1F1EAE0A408AF7C00EE761A /* Pods_cronometroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cronometroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FE1D104BDF7A5A7D3DA5D1 /* Pods-cronometro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cronometro.release.xcconfig"; path = "Pods/Target Support Files/Pods-cronometro/Pods-cronometro.release.xcconfig"; sourceTree = "<group>"; };
+		F38B7C6025053808DE6BA4EE /* Pods_cronometroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cronometroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE78FDED16B10EFFA1DEBB01 /* Pods_cronometro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cronometro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E823432203576D008B7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140A956F536758895F041C26 /* Pods_cronometro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8235722035776008B7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454EC355DC04D09212D0EFE0 /* Pods_cronometroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8236222035776008B7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B036062966136EDB736BECF /* Pods_cronometroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E8233D2203576D008B7C97 = {
+			isa = PBXGroup;
+			children = (
+				71E823482203576D008B7C97 /* cronometro */,
+				71E8235D22035776008B7C97 /* cronometroTests */,
+				71E8236822035776008B7C97 /* cronometroUITests */,
+				71E823472203576D008B7C97 /* Products */,
+				C1350E601711DECB276FD6DB /* Pods */,
+				914E43A24EDB57179866E044 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E823472203576D008B7C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E823462203576D008B7C97 /* cronometro.app */,
+				71E8235A22035776008B7C97 /* cronometroTests.xctest */,
+				71E8236522035776008B7C97 /* cronometroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E823482203576D008B7C97 /* cronometro */ = {
+			isa = PBXGroup;
+			children = (
+				71E823492203576D008B7C97 /* AppDelegate.swift */,
+				71E8234B2203576D008B7C97 /* ViewController.swift */,
+				71E8234D2203576D008B7C97 /* Main.storyboard */,
+				71E8235022035775008B7C97 /* Assets.xcassets */,
+				71E8235222035775008B7C97 /* LaunchScreen.storyboard */,
+				71E8235522035775008B7C97 /* Info.plist */,
+			);
+			path = cronometro;
+			sourceTree = "<group>";
+		};
+		71E8235D22035776008B7C97 /* cronometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E8235E22035776008B7C97 /* cronometroTests.swift */,
+				71E8236022035776008B7C97 /* Info.plist */,
+			);
+			path = cronometroTests;
+			sourceTree = "<group>";
+		};
+		71E8236822035776008B7C97 /* cronometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71E8236922035776008B7C97 /* cronometroUITests.swift */,
+				71E8236B22035776008B7C97 /* Info.plist */,
+			);
+			path = cronometroUITests;
+			sourceTree = "<group>";
+		};
+		914E43A24EDB57179866E044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE78FDED16B10EFFA1DEBB01 /* Pods_cronometro.framework */,
+				B1F1EAE0A408AF7C00EE761A /* Pods_cronometroTests.framework */,
+				F38B7C6025053808DE6BA4EE /* Pods_cronometroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1350E601711DECB276FD6DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525FCB2F6CECED424EF1279D /* Pods-cronometro.debug.xcconfig */,
+				D1FE1D104BDF7A5A7D3DA5D1 /* Pods-cronometro.release.xcconfig */,
+				7723F6FBBB3B831A303C0688 /* Pods-cronometroTests.debug.xcconfig */,
+				A9A48C1BEDEC20E12D6D752C /* Pods-cronometroTests.release.xcconfig */,
+				404D5EE4482CC030985DB612 /* Pods-cronometroUITests.debug.xcconfig */,
+				64864976842C1D5A36788721 /* Pods-cronometroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E823452203576D008B7C97 /* cronometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E8236E22035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometro" */;
+			buildPhases = (
+				E41AB8D846FCC2D4161F353E /* [CP] Check Pods Manifest.lock */,
+				71E823422203576D008B7C97 /* Sources */,
+				71E823432203576D008B7C97 /* Frameworks */,
+				71E823442203576D008B7C97 /* Resources */,
+				E730647C1424CB8DB9181DD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cronometro;
+			productName = cronometro;
+			productReference = 71E823462203576D008B7C97 /* cronometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E8235922035776008B7C97 /* cronometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E8237122035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometroTests" */;
+			buildPhases = (
+				F5B4779431BD4F9AAE75CD18 /* [CP] Check Pods Manifest.lock */,
+				71E8235622035776008B7C97 /* Sources */,
+				71E8235722035776008B7C97 /* Frameworks */,
+				71E8235822035776008B7C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E8235C22035776008B7C97 /* PBXTargetDependency */,
+			);
+			name = cronometroTests;
+			productName = cronometroTests;
+			productReference = 71E8235A22035776008B7C97 /* cronometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71E8236422035776008B7C97 /* cronometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E8237422035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometroUITests" */;
+			buildPhases = (
+				A740C5A6C51FC1B5C64C4CE6 /* [CP] Check Pods Manifest.lock */,
+				71E8236122035776008B7C97 /* Sources */,
+				71E8236222035776008B7C97 /* Frameworks */,
+				71E8236322035776008B7C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E8236722035776008B7C97 /* PBXTargetDependency */,
+			);
+			name = cronometroUITests;
+			productName = cronometroUITests;
+			productReference = 71E8236522035776008B7C97 /* cronometroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E8233E2203576D008B7C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "armas jose";
+				TargetAttributes = {
+					71E823452203576D008B7C97 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					71E8235922035776008B7C97 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 71E823452203576D008B7C97;
+					};
+					71E8236422035776008B7C97 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 71E823452203576D008B7C97;
+					};
+				};
+			};
+			buildConfigurationList = 71E823412203576D008B7C97 /* Build configuration list for PBXProject "cronometro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E8233D2203576D008B7C97;
+			productRefGroup = 71E823472203576D008B7C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E823452203576D008B7C97 /* cronometro */,
+				71E8235922035776008B7C97 /* cronometroTests */,
+				71E8236422035776008B7C97 /* cronometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E823442203576D008B7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E8235422035775008B7C97 /* LaunchScreen.storyboard in Resources */,
+				71E8235122035775008B7C97 /* Assets.xcassets in Resources */,
+				71E8234F2203576D008B7C97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8235822035776008B7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8236322035776008B7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A740C5A6C51FC1B5C64C4CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cronometroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41AB8D846FCC2D4161F353E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cronometro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E730647C1424CB8DB9181DD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cronometro/Pods-cronometro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cronometro/Pods-cronometro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B4779431BD4F9AAE75CD18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cronometroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E823422203576D008B7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E8234C2203576D008B7C97 /* ViewController.swift in Sources */,
+				71E8234A2203576D008B7C97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8235622035776008B7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E8235F22035776008B7C97 /* cronometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8236122035776008B7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E8236A22035776008B7C97 /* cronometroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E8235C22035776008B7C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E823452203576D008B7C97 /* cronometro */;
+			targetProxy = 71E8235B22035776008B7C97 /* PBXContainerItemProxy */;
+		};
+		71E8236722035776008B7C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E823452203576D008B7C97 /* cronometro */;
+			targetProxy = 71E8236622035776008B7C97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E8234D2203576D008B7C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E8234E2203576D008B7C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E8235222035775008B7C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E8235322035775008B7C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E8236C22035776008B7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E8236D22035776008B7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E8236F22035776008B7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525FCB2F6CECED424EF1279D /* Pods-cronometro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E8237022035776008B7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FE1D104BDF7A5A7D3DA5D1 /* Pods-cronometro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71E8237222035776008B7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7723F6FBBB3B831A303C0688 /* Pods-cronometroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cronometro.app/cronometro";
+			};
+			name = Debug;
+		};
+		71E8237322035776008B7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A48C1BEDEC20E12D6D752C /* Pods-cronometroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cronometro.app/cronometro";
+			};
+			name = Release;
+		};
+		71E8237522035776008B7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404D5EE4482CC030985DB612 /* Pods-cronometroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cronometro;
+			};
+			name = Debug;
+		};
+		71E8237622035776008B7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64864976842C1D5A36788721 /* Pods-cronometroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.armasjose.cronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cronometro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E823412203576D008B7C97 /* Build configuration list for PBXProject "cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E8236C22035776008B7C97 /* Debug */,
+				71E8236D22035776008B7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E8236E22035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E8236F22035776008B7C97 /* Debug */,
+				71E8237022035776008B7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E8237122035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E8237222035776008B7C97 /* Debug */,
+				71E8237322035776008B7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E8237422035776008B7C97 /* Build configuration list for PBXNativeTarget "cronometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E8237522035776008B7C97 /* Debug */,
+				71E8237622035776008B7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E8233E2203576D008B7C97 /* Project object */;
+}

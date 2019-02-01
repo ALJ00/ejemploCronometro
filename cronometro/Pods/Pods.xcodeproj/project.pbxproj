@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F302EA64D95592A3EC7324FB0510282 /* Pods-cronometro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AA7221664DF90A52DABAC71546E9D7 /* Pods-cronometro-dummy.m */; };
+		40CE7EEC26076CD832A29DBFF3D0BABC /* Pods-cronometroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1BEFF293BF9756ECFB2202D130080C /* Pods-cronometroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4452664CEDA4265703BEAD076A7D25BB /* Each-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */; };
+		5827A3257880A9DA694A98543808DC74 /* Each.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */; };
+		77F7D98D9B2959DD21638E6E79F12865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7E46741E73D2A888FC293548B7B986D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		87D754731DBA19295DD15F971FC8D63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		899B776329F0A46C91736BD88DEE674B /* Pods-cronometroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 526BB3112BA29D12FEC3E3B38953CD50 /* Pods-cronometroTests-dummy.m */; };
+		91897A2C38544233651D3EBC8C603511 /* Pods-cronometroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA19E220B66F025DC7F06EDAADF35495 /* Pods-cronometroUITests-dummy.m */; };
+		D49A2388776B7260332C0AB7AC081147 /* Pods-cronometro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD7E5D8E1E7DC94052091C6658E6C5A /* Pods-cronometro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C7139EECBB9275077215C65EAD9639 /* Pods-cronometroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CF3992F90A7393A114C7BD6EFFDA0A /* Pods-cronometroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DDAB0A0FBF2B3C1D772200C124571B /* Each-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFB4EF681ECDEFBA5D8EDC44D191A935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A991913CFFD50E250585002506FFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F775318E4B81AA1F9E33162D9AB4C54;
+			remoteInfo = Each;
+		};
+		3D3E333561207FF41DEB51A9F70F4969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DA3C7E9CB309AF48E01C4DF875A51C;
+			remoteInfo = "Pods-cronometro";
+		};
+		E79F205D39C0A0B6C9A607CFC13BB1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DA3C7E9CB309AF48E01C4DF875A51C;
+			remoteInfo = "Pods-cronometro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1091140EEC35A8F975E512282876FCBD /* Pods-cronometroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometroUITests-frameworks.sh"; sourceTree = "<group>"; };
+		18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-umbrella.h"; sourceTree = "<group>"; };
+		1B5E3B33949C3AB71FA9B85D5CDAAA82 /* Pods-cronometro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cronometro-acknowledgements.plist"; sourceTree = "<group>"; };
+		254A183F4A00E23900DA29D1B92B234C /* Pods-cronometroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cronometroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		293581D57EBD9EEFABC2AF5A7A7F76EE /* Pods-cronometroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34E2AD8919C634A12E18331F3145E3E7 /* Pods-cronometroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cronometroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35505A199FCDFD35A60C0332093A0ED3 /* Pods-cronometroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Each-dummy.m"; sourceTree = "<group>"; };
+		424AE3478A5BB6CC66F06DEBA435AEEB /* Pods-cronometro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometro-frameworks.sh"; sourceTree = "<group>"; };
+		4438B019F7BB2E103B26D90CFBB0D1CF /* Pods_cronometroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cronometroTests.framework; path = "Pods-cronometroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C9D1EE676508FFE93CF92F7E9E5439 /* Each-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Each-prefix.pch"; sourceTree = "<group>"; };
+		4B970FB92526843F0613C3860DBB2696 /* Pods-cronometroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		526BB3112BA29D12FEC3E3B38953CD50 /* Pods-cronometroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cronometroTests-dummy.m"; sourceTree = "<group>"; };
+		549B93B732303B06BA178BDF9CB2C230 /* Pods-cronometroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometroTests-frameworks.sh"; sourceTree = "<group>"; };
+		67A8B800097A3FC140FCCCAC439882F4 /* Pods-cronometro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometro-resources.sh"; sourceTree = "<group>"; };
+		6AEAA267D6745D8CF799B0346C64BE30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE0639A51C31AF01DC015E6989E9B4A /* Each.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Each.framework; path = Each.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90637089D6E7FC28AF075AAC4B974974 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9559882807155A48EA41735EDF4EC78A /* Each.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Each.modulemap; sourceTree = "<group>"; };
+		96C8B3EB11DD36D6BF8DB67319E81670 /* Pods-cronometroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cronometroTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97D094B74B1CDBD19036A249D32764F8 /* Pods_cronometro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cronometro.framework; path = "Pods-cronometro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD7E5D8E1E7DC94052091C6658E6C5A /* Pods-cronometro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cronometro-umbrella.h"; sourceTree = "<group>"; };
+		9DF5BE44288F3408BB637DCE22E1ECD8 /* Pods-cronometroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometroUITests-resources.sh"; sourceTree = "<group>"; };
+		9FFAE88B40AEC817591536CA49D89B0E /* Pods-cronometroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometroTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8101526BAE1C6A728E05B7E165C6EE4 /* Pods_cronometroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cronometroUITests.framework; path = "Pods-cronometroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00659E3B357A1FA1B1058D0B3F19520 /* Pods-cronometro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometro.release.xcconfig"; sourceTree = "<group>"; };
+		B26311E94E448CD1578699F534D598EB /* Pods-cronometroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cronometroTests-resources.sh"; sourceTree = "<group>"; };
+		BCFE3C006BBD41F39327467404E8EBB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1BEFF293BF9756ECFB2202D130080C /* Pods-cronometroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cronometroTests-umbrella.h"; sourceTree = "<group>"; };
+		C5820A0C248D69BC28624B1A41A3E686 /* Pods-cronometroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cronometroUITests.modulemap"; sourceTree = "<group>"; };
+		CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Each.xcconfig; sourceTree = "<group>"; };
+		CC703889EA0F19249BF4354F4D67B39C /* Pods-cronometroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cronometroTests.modulemap"; sourceTree = "<group>"; };
+		D29423EE210D853BA7F765C9066BC063 /* Pods-cronometro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cronometro.modulemap"; sourceTree = "<group>"; };
+		D3CF3992F90A7393A114C7BD6EFFDA0A /* Pods-cronometroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cronometroUITests-umbrella.h"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7768A95B3EC4FB1D82CD827F1B7AFDC /* Pods-cronometro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cronometro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD019C7011ED10F964CB617328B9E620 /* Pods-cronometro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cronometro.debug.xcconfig"; sourceTree = "<group>"; };
+		E95E4D5330A2E06EDC07C4C788C842A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA19E220B66F025DC7F06EDAADF35495 /* Pods-cronometroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cronometroUITests-dummy.m"; sourceTree = "<group>"; };
+		EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Each.swift; path = Sources/Each.swift; sourceTree = "<group>"; };
+		F0AA7221664DF90A52DABAC71546E9D7 /* Pods-cronometro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cronometro-dummy.m"; sourceTree = "<group>"; };
+		F58488E1C0793ECBD781B84D6FAE5A88 /* Pods-cronometroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cronometroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B76BBDC495BDD77BDE89ACDA6F5842C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D754731DBA19295DD15F971FC8D63E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57545FEE77324AB7901C4B7E2685FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F7D98D9B2959DD21638E6E79F12865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5F3372FBC13C38F5C1BB974ADCD6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E46741E73D2A888FC293548B7B986D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9174F7BC8417774961F456F3A1B4FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB4EF681ECDEFBA5D8EDC44D191A935 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C0F3F6CF686E90488528256B578F55 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70EE50BEDFD1BD7671C1DE077A9AB09A /* Pods-cronometro */,
+				63F11F8CEC1843FC9A615C8D59B2BB7A /* Pods-cronometroTests */,
+				CA37531E6FC4C72397798132DA6AB400 /* Pods-cronometroUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63F11F8CEC1843FC9A615C8D59B2BB7A /* Pods-cronometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEAA267D6745D8CF799B0346C64BE30 /* Info.plist */,
+				CC703889EA0F19249BF4354F4D67B39C /* Pods-cronometroTests.modulemap */,
+				F58488E1C0793ECBD781B84D6FAE5A88 /* Pods-cronometroTests-acknowledgements.markdown */,
+				96C8B3EB11DD36D6BF8DB67319E81670 /* Pods-cronometroTests-acknowledgements.plist */,
+				526BB3112BA29D12FEC3E3B38953CD50 /* Pods-cronometroTests-dummy.m */,
+				549B93B732303B06BA178BDF9CB2C230 /* Pods-cronometroTests-frameworks.sh */,
+				B26311E94E448CD1578699F534D598EB /* Pods-cronometroTests-resources.sh */,
+				BF1BEFF293BF9756ECFB2202D130080C /* Pods-cronometroTests-umbrella.h */,
+				35505A199FCDFD35A60C0332093A0ED3 /* Pods-cronometroTests.debug.xcconfig */,
+				9FFAE88B40AEC817591536CA49D89B0E /* Pods-cronometroTests.release.xcconfig */,
+			);
+			name = "Pods-cronometroTests";
+			path = "Target Support Files/Pods-cronometroTests";
+			sourceTree = "<group>";
+		};
+		70EE50BEDFD1BD7671C1DE077A9AB09A /* Pods-cronometro */ = {
+			isa = PBXGroup;
+			children = (
+				90637089D6E7FC28AF075AAC4B974974 /* Info.plist */,
+				D29423EE210D853BA7F765C9066BC063 /* Pods-cronometro.modulemap */,
+				D7768A95B3EC4FB1D82CD827F1B7AFDC /* Pods-cronometro-acknowledgements.markdown */,
+				1B5E3B33949C3AB71FA9B85D5CDAAA82 /* Pods-cronometro-acknowledgements.plist */,
+				F0AA7221664DF90A52DABAC71546E9D7 /* Pods-cronometro-dummy.m */,
+				424AE3478A5BB6CC66F06DEBA435AEEB /* Pods-cronometro-frameworks.sh */,
+				67A8B800097A3FC140FCCCAC439882F4 /* Pods-cronometro-resources.sh */,
+				9BD7E5D8E1E7DC94052091C6658E6C5A /* Pods-cronometro-umbrella.h */,
+				DD019C7011ED10F964CB617328B9E620 /* Pods-cronometro.debug.xcconfig */,
+				B00659E3B357A1FA1B1058D0B3F19520 /* Pods-cronometro.release.xcconfig */,
+			);
+			name = "Pods-cronometro";
+			path = "Target Support Files/Pods-cronometro";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A18461AD0A9E4F5AEF0827053AF8EE28 /* Pods */,
+				BDD624EDC83544E5CA1E0B234D2627B6 /* Products */,
+				26C0F3F6CF686E90488528256B578F55 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD223C812552B985AC777604F887312 /* Each */ = {
+			isa = PBXGroup;
+			children = (
+				EBF99B90B4BBBDAC7744431A842BA82E /* Each.swift */,
+				E26EC9BA0D40C184DA63B46621A36575 /* Support Files */,
+			);
+			name = Each;
+			path = Each;
+			sourceTree = "<group>";
+		};
+		A18461AD0A9E4F5AEF0827053AF8EE28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DD223C812552B985AC777604F887312 /* Each */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD624EDC83544E5CA1E0B234D2627B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0639A51C31AF01DC015E6989E9B4A /* Each.framework */,
+				97D094B74B1CDBD19036A249D32764F8 /* Pods_cronometro.framework */,
+				4438B019F7BB2E103B26D90CFBB0D1CF /* Pods_cronometroTests.framework */,
+				A8101526BAE1C6A728E05B7E165C6EE4 /* Pods_cronometroUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA37531E6FC4C72397798132DA6AB400 /* Pods-cronometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFE3C006BBD41F39327467404E8EBB3 /* Info.plist */,
+				C5820A0C248D69BC28624B1A41A3E686 /* Pods-cronometroUITests.modulemap */,
+				254A183F4A00E23900DA29D1B92B234C /* Pods-cronometroUITests-acknowledgements.markdown */,
+				34E2AD8919C634A12E18331F3145E3E7 /* Pods-cronometroUITests-acknowledgements.plist */,
+				EA19E220B66F025DC7F06EDAADF35495 /* Pods-cronometroUITests-dummy.m */,
+				1091140EEC35A8F975E512282876FCBD /* Pods-cronometroUITests-frameworks.sh */,
+				9DF5BE44288F3408BB637DCE22E1ECD8 /* Pods-cronometroUITests-resources.sh */,
+				D3CF3992F90A7393A114C7BD6EFFDA0A /* Pods-cronometroUITests-umbrella.h */,
+				4B970FB92526843F0613C3860DBB2696 /* Pods-cronometroUITests.debug.xcconfig */,
+				293581D57EBD9EEFABC2AF5A7A7F76EE /* Pods-cronometroUITests.release.xcconfig */,
+			);
+			name = "Pods-cronometroUITests";
+			path = "Target Support Files/Pods-cronometroUITests";
+			sourceTree = "<group>";
+		};
+		E26EC9BA0D40C184DA63B46621A36575 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9559882807155A48EA41735EDF4EC78A /* Each.modulemap */,
+				CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */,
+				37DC77377115D0C427410BDE60E5315E /* Each-dummy.m */,
+				48C9D1EE676508FFE93CF92F7E9E5439 /* Each-prefix.pch */,
+				18179AC8819190AB6E4D039A87174A1D /* Each-umbrella.h */,
+				E95E4D5330A2E06EDC07C4C788C842A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Each";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BF2F5171A18E607228B11A3BE738AA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DDAB0A0FBF2B3C1D772200C124571B /* Each-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329EE6BF4EAC529A7F8727FF827EB5F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CE7EEC26076CD832A29DBFF3D0BABC /* Pods-cronometroTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F1A4F6A8D415C8FAD2DE3218E2FA84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49A2388776B7260332C0AB7AC081147 /* Pods-cronometro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0B895B5978A9FD250D986138602E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C7139EECBB9275077215C65EAD9639 /* Pods-cronometroUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F775318E4B81AA1F9E33162D9AB4C54 /* Each */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5C29108F414CE10F52B4F6FB17EABC /* Build configuration list for PBXNativeTarget "Each" */;
+			buildPhases = (
+				2BF2F5171A18E607228B11A3BE738AA0 /* Headers */,
+				D3D93BD99F93DF3C556B442F5FFA9D2E /* Sources */,
+				A57545FEE77324AB7901C4B7E2685FB8 /* Frameworks */,
+				CBAE97FAF98B4DF7016E879532D05820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Each;
+			productName = Each;
+			productReference = 8DE0639A51C31AF01DC015E6989E9B4A /* Each.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DB2D755CF8B61AF8803B1C340628934 /* Pods-cronometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033EC12749360406F136CC240E514AA3 /* Build configuration list for PBXNativeTarget "Pods-cronometroUITests" */;
+			buildPhases = (
+				DD0B895B5978A9FD250D986138602E31 /* Headers */,
+				E91504E9530678C6F8E5AE2993FED398 /* Sources */,
+				4B76BBDC495BDD77BDE89ACDA6F5842C /* Frameworks */,
+				CE029C0397DE2709C5CC25CBBE559DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3058F53C546CC5905B180D765DD1EF02 /* PBXTargetDependency */,
+			);
+			name = "Pods-cronometroUITests";
+			productName = "Pods-cronometroUITests";
+			productReference = A8101526BAE1C6A728E05B7E165C6EE4 /* Pods_cronometroUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0DA3C7E9CB309AF48E01C4DF875A51C /* Pods-cronometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C179B5BD8D28120A6E3902A027E39B91 /* Build configuration list for PBXNativeTarget "Pods-cronometro" */;
+			buildPhases = (
+				67F1A4F6A8D415C8FAD2DE3218E2FA84 /* Headers */,
+				C27C1DC43C85F78386465627965F2CC8 /* Sources */,
+				F9174F7BC8417774961F456F3A1B4FD2 /* Frameworks */,
+				BBC87B04E61A26AE90056FC8FC421A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2136CEA7C5D7D75537189DB7F135209 /* PBXTargetDependency */,
+			);
+			name = "Pods-cronometro";
+			productName = "Pods-cronometro";
+			productReference = 97D094B74B1CDBD19036A249D32764F8 /* Pods_cronometro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0B58C1AE9C6CDD4CB23B0A9E4D6BCE9 /* Pods-cronometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF6C8A301553093C61F4882529B4977 /* Build configuration list for PBXNativeTarget "Pods-cronometroTests" */;
+			buildPhases = (
+				329EE6BF4EAC529A7F8727FF827EB5F0 /* Headers */,
+				C33EC2B1D95CDD14ABDDC4498CBC1D58 /* Sources */,
+				AD5F3372FBC13C38F5C1BB974ADCD6DC /* Frameworks */,
+				0D4D516C80256BBBF3968DAA86EDE23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57030F9343EA5420C67E2FB6DB549B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-cronometroTests";
+			productName = "Pods-cronometroTests";
+			productReference = 4438B019F7BB2E103B26D90CFBB0D1CF /* Pods_cronometroTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BDD624EDC83544E5CA1E0B234D2627B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F775318E4B81AA1F9E33162D9AB4C54 /* Each */,
+				C0DA3C7E9CB309AF48E01C4DF875A51C /* Pods-cronometro */,
+				E0B58C1AE9C6CDD4CB23B0A9E4D6BCE9 /* Pods-cronometroTests */,
+				3DB2D755CF8B61AF8803B1C340628934 /* Pods-cronometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4D516C80256BBBF3968DAA86EDE23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC87B04E61A26AE90056FC8FC421A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE97FAF98B4DF7016E879532D05820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE029C0397DE2709C5CC25CBBE559DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27C1DC43C85F78386465627965F2CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F302EA64D95592A3EC7324FB0510282 /* Pods-cronometro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33EC2B1D95CDD14ABDDC4498CBC1D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899B776329F0A46C91736BD88DEE674B /* Pods-cronometroTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D93BD99F93DF3C556B442F5FFA9D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4452664CEDA4265703BEAD076A7D25BB /* Each-dummy.m in Sources */,
+				5827A3257880A9DA694A98543808DC74 /* Each.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91504E9530678C6F8E5AE2993FED398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91897A2C38544233651D3EBC8C603511 /* Pods-cronometroUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3058F53C546CC5905B180D765DD1EF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-cronometro";
+			target = C0DA3C7E9CB309AF48E01C4DF875A51C /* Pods-cronometro */;
+			targetProxy = E79F205D39C0A0B6C9A607CFC13BB1EE /* PBXContainerItemProxy */;
+		};
+		A57030F9343EA5420C67E2FB6DB549B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-cronometro";
+			target = C0DA3C7E9CB309AF48E01C4DF875A51C /* Pods-cronometro */;
+			targetProxy = 3D3E333561207FF41DEB51A9F70F4969 /* PBXContainerItemProxy */;
+		};
+		B2136CEA7C5D7D75537189DB7F135209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Each;
+			target = 1F775318E4B81AA1F9E33162D9AB4C54 /* Each */;
+			targetProxy = 02A991913CFFD50E250585002506FFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132026D01631D7CEC2A86A2ECDAB3544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35505A199FCDFD35A60C0332093A0ED3 /* Pods-cronometroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometroTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometroTests/Pods-cronometroTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21A83DF5CEF55F200249EA598E52EF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00659E3B357A1FA1B1058D0B3F19520 /* Pods-cronometro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometro/Pods-cronometro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F84A034CA1665E200169D4DAA973CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B970FB92526843F0613C3860DBB2696 /* Pods-cronometroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometroUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometroUITests/Pods-cronometroUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61D80B68F9D92C2F6924B69DD85CE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD019C7011ED10F964CB617328B9E620 /* Pods-cronometro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometro/Pods-cronometro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AEBF847F76B04A88EAEAED22350A392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFAE88B40AEC817591536CA49D89B0E /* Pods-cronometroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometroTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometroTests/Pods-cronometroTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D37820285E2BD45D90ABEC3BAF5E547D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Each/Each-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Each/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Each/Each.modulemap";
+				PRODUCT_MODULE_NAME = Each;
+				PRODUCT_NAME = Each;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB04B1A206CB7EBFD7A26424551C7D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293581D57EBD9EEFABC2AF5A7A7F76EE /* Pods-cronometroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cronometroUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cronometroUITests/Pods-cronometroUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBB4B3A94001021BD05B62AE307A2615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69C832BF39244941C7083EC0BB9AC1 /* Each.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Each/Each-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Each/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Each/Each.modulemap";
+				PRODUCT_MODULE_NAME = Each;
+				PRODUCT_NAME = Each;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033EC12749360406F136CC240E514AA3 /* Build configuration list for PBXNativeTarget "Pods-cronometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F84A034CA1665E200169D4DAA973CBA /* Debug */,
+				DB04B1A206CB7EBFD7A26424551C7D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
+				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5C29108F414CE10F52B4F6FB17EABC /* Build configuration list for PBXNativeTarget "Each" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37820285E2BD45D90ABEC3BAF5E547D /* Debug */,
+				EBB4B3A94001021BD05B62AE307A2615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C179B5BD8D28120A6E3902A027E39B91 /* Build configuration list for PBXNativeTarget "Pods-cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D80B68F9D92C2F6924B69DD85CE0CA /* Debug */,
+				21A83DF5CEF55F200249EA598E52EF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF6C8A301553093C61F4882529B4977 /* Build configuration list for PBXNativeTarget "Pods-cronometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132026D01631D7CEC2A86A2ECDAB3544 /* Debug */,
+				6AEBF847F76B04A88EAEAED22350A392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
